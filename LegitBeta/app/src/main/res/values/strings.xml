@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LegitBeta</string>
+    <string name="name_splashScreen">Splash Screen</string>
+    <string name="name_login">Login Activity</string>
+    <string name="name_newLogin">New Login Activity</string>
+
+    <string name="private_policy"><a href="www.google.com">Private Policy</a> </string>
+
+
+    <string name="util_facebook_id">163964170663358</string>
+    <string name="title_activity_startup_settings">StartupSettings</string>
+</resources>
