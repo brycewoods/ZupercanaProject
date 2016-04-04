@@ -22,6 +22,8 @@ public class SplashScreenActivity extends AppCompatActivity {
     //Length of Timer for Splash Screen.
     protected int _time = 1500;
 
+    boolean testingFirstTime = true;
+
     @Override
     public void onCreate(Bundle savedInstanceState){
         FacebookSdk.sdkInitialize(this);
@@ -49,10 +51,17 @@ public class SplashScreenActivity extends AppCompatActivity {
                     finish();
                 } finally {
                     try{
-                        if(profile != null){
+                        if(testingFirstTime){
+                            Log.e("Splash Screen Login", "Testing: Forcing User to new profile.");
+                            Intent mNewLoginIntent = new Intent(SplashScreenActivity.this,NewLoginActivity.class);
+                            startActivity(mNewLoginIntent);
+                            finish();
+                        }
+                        else if(profile != null){
                             Log.e("Splash Screen Login", "User Logged in. Continuing to profile.");
                             Intent mToMain = new Intent(SplashScreenActivity.this,UserActivity.class);
                             startActivity(mToMain);
+                            finish();
                         }
                         else if(profile == null && firstTime != null){
                             Log.e("Splash Screen Login", "User Recognized but not logged in. Continuing to Login.");

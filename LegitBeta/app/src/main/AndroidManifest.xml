@@ -2,12 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.bryce.legitbeta">
 
-
-
     <uses-permission android:name="android.permission.INTERNET" />
-
-
-
 
     <application
         android:allowBackup="true"
@@ -50,7 +45,16 @@
         <activity
             android:name=".StartupSettingsActivity"
             android:label="@string/title_activity_startup_settings"
-            android:theme="@style/AppTheme_NoActionBar"></activity>
+            android:theme="@style/AppTheme_NoActionBar" />
+        <activity
+            android:name=".DiscoverySettings"
+            android:label="@string/title_activity_discovery_settings" />
+        <activity
+            android:name=".AboutYouActivity"
+            android:label="@string/title_activity_about_you" />
+        <activity
+            android:name=".YourMatchActivity"
+            android:label="@string/title_activity_your_match"></activity>
     </application>
 
 </manifest>
