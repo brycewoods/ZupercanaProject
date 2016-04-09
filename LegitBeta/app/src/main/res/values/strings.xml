@@ -70,4 +70,78 @@
     <string name="pref_title_vibrate">Vibrate</string>
     <string name="title_activity_about_you">About You</string>
     <string name="title_activity_your_match">Your Dream Match</string>
+
+
+    <string-array name="pref_fun_answers">
+        <item>Going to parties</item>
+        <item>Playing video games</item>
+        <item>Playing sports</item>
+        <item>Reading Books</item>
+        <item>Watching Movies</item>
+        <item>Making Music</item>
+        <item>Spending time outdoors</item>
+    </string-array>
+
+
+    <string-array name="pref_smart_answers">
+        <item>Book Smart</item>
+        <item>Health Smart</item>
+        <item>Spiritually Smart</item>
+        <item>Emotionally Smart</item>
+        <item>Common Sense</item>
+    </string-array>
+
+    <string-array name="pref_creative_answers">
+        <item>Musical</item>
+        <item>Theatric</item>
+        <item>Comedic</item>
+    </string-array>
+
+    <string-array name="pref_chracter_answers">
+        <item>Cheeky</item>
+        <item>Honest</item>
+        <item>Curious</item>
+        <item>Driven</item>
+        <item>Caring</item>
+    </string-array>
+
+    <string-array name="pref_appearance_answers">
+        <item>Gym junkie</item>
+        <item>Healthy</item>
+        <item>Average</item>
+        <item>Lazy</item>
+    </string-array>
+
+    <string-array name="pref_match_personality">
+        <item>Free Spirit</item>
+        <item>Structured and Driven</item>
+        <item>Poetic and Kind</item>
+        <item>Smart and Curious</item>
+    </string-array>
+
+    <string-array name="pref_match_appearance">
+        <item>Gym junkie</item>
+        <item>Healthy</item>
+        <item>Average</item>
+        <item>Looks Don\'t Matter</item>
+    </string-array>
+
+    <string-array name="pref_match_interests">
+        <item>Staying Inside and Relaxing</item>
+        <item>Going out and having fun</item>
+        <item>Exploring and chasing thrills</item>
+        <item>Creating and inventing new things</item>
+    </string-array>
+
+    <string-array name="pref_match_smart">
+        <item>Book Smart</item>
+        <item>Health Smart</item>
+        <item>Spiritually Smart</item>
+        <item>Emotionally Smart</item>
+        <item>Common Sense</item>
+    </string-array>
+
+
+
+
 </resources>

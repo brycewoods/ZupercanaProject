@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_match_personality"
+        android:entryValues="@array/pref_match_personality"
+        android:key="match_personality"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Personality?"
+        android:summary="Nothing Selected"/>
+
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_match_interests"
+        android:entryValues="@array/pref_match_interests"
+        android:key="match_interests"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Interests?"
+        android:summary="Nothing Selected"/>
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_match_smart"
+        android:entryValues="@array/pref_match_smart"
+        android:key="match_smart"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Smarts?"
+        android:summary="Nothing Selected"/>
+
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_match_appearance"
+        android:entryValues="@array/pref_match_appearance"
+        android:key="match_appearance"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Appearance?"
+        android:summary="Nothing Selected"/>
+
+
+</PreferenceScreen>

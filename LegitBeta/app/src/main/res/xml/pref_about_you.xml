@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_fun_answers"
+        android:entryValues="@array/pref_fun_answers"
+        android:key="me_fun_answers"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Fun for you?"
+        android:summary="Nothing Selected"/>
+
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_smart_answers"
+        android:entryValues="@array/pref_smart_answers"
+        android:key="me_smart_answers"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Your type of smart?"
+        android:summary="Nothing Selected"/>
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_creative_answers"
+        android:entryValues="@array/pref_creative_answers"
+        android:key="me_creative_answers"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Your creative side?"
+        android:summary="Nothing Selected"/>
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_chracter_answers"
+        android:entryValues="@array/pref_chracter_answers"
+        android:key="me_character_answers"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Your personality?"
+        android:summary="Nothing Selected"/>
+
+    <ListPreference
+        android:defaultValue="-1"
+        android:entries="@array/pref_appearance_answers"
+        android:entryValues="@array/pref_appearance_answers"
+        android:key="me_appearance_answers"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="Your Appearance?"
+        android:summary="Nothing Selected"/>
+
+</PreferenceScreen>

@@ -49,12 +49,17 @@
         <activity
             android:name=".DiscoverySettings"
             android:label="@string/title_activity_discovery_settings" />
+
         <activity
             android:name=".AboutYouActivity"
-            android:label="@string/title_activity_about_you" />
+            android:theme="@style/AppTheme_TextCentered"
+
+            />
+
         <activity
             android:name=".YourMatchActivity"
-            android:label="@string/title_activity_your_match"></activity>
+            android:label="@string/title_activity_your_match"
+            android:theme="@style/AppTheme_TextCentered"></activity>
     </application>
 
 </manifest>

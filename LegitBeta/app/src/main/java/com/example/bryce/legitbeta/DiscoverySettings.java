@@ -38,6 +38,8 @@ public class DiscoverySettings extends AppCompatPreferenceActivity {
 
     public void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);
+
+
         
     }
 }

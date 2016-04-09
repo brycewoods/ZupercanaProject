@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/toolbar_nooptions_yourMatch"
+        android:layout_width="match_parent"
+        android:layout_height="56.0dip"
+        android:textAlignment="center"
+        android:background="#D9D9D9"
+        android:theme="@style/AppTheme_TextCentered">
+
+
+
+        <TextView
+            android:paddingTop="15dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Your Dream Match"
+            android:textSize="20sp"
+            android:gravity="center"/>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Describe Your Dream Match.."
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:paddingTop="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press on each category an select which option best suits you!"
+        android:textSize="10sp"
+        android:layout_gravity="center"
+        android:paddingBottom="10dp"/>
+
+    <ListView
+        android:id="@android:id/list"
+        android:layout_width="386dp"
+        android:layout_height="wrap_content"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="10.0sp"/>
+
+
+
+    <RelativeLayout
+        android:id="@+id/limittosearchtextlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/limitsearchtextview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="7dp"
+            android:textSize="20sp"
+            android:text="Distance"
+            android:layout_marginBottom="5dp"/>
+
+        <SeekBar
+            android:id="@+id/seeklitmitosearch"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="25dp"
+            android:progress="1"
+            android:max="100"
+            android:maxHeight="4dp"
+            android:minHeight="4dp"
+            android:progressDrawable="@drawable/styled_progress"
+            android:secondaryProgress="100"
+            android:thumb="@drawable/slider_thumb"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To Discovery Settings"
+        android:onClick="toUserProfile"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>
